@@ -65,3 +65,141 @@ small{
 .outline p{
     margin-bottom: 30px;
 }
+
+/* card */
+.card-ico{
+    margin-bottom: 40px;
+}
+
+.card-title{
+    margin-bottom: 20px;
+    color: #2F2F35;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* btn */
+.btn{
+    display: block;
+    width: 200px;
+    margin-top: 60px;
+    padding: 15px 0;
+    background-color: #256BE6;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 0.025em;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 30px;
+}
+
+/* home
+-------------------*/
+/* features */
+.features{
+    padding: 80px 0;
+}
+
+.features .inner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.features .outline{
+    width: 42.7%;
+}
+
+.features-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 50%;
+    margin-bottom: -70px; /* ネガティブマージン */
+}
+
+.features-list .card{
+    width: 44%;
+    margin-bottom: 70px;
+}
+
+/* payment */
+.payment{
+  padding: 80px 0;
+  background-color: #F7FAFF;
+}
+
+.payment .inner{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.payment-pic{
+  width: 50%;
+}
+
+.payment .outline{
+  width: 42.7%;
+}
+
+
+/* service
+-------------------*/
+
+/* wedo */
+.wedo{
+    padding: 80px;
+    text-align: center;
+}
+
+.wedo .outline{
+    margin-bottom: 60px;
+}
+
+.service{
+    padding: 60px 70px;
+    background-color: #F7FAFF;
+}
+
+.service-title{
+    margin-bottom: 60px;
+    color: #2F2F35;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.service-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.service-list .card{
+    width: 29.1%;
+    padding: 40px 25px;
+    background-color: #fff;
+}
+
+.service-list .btn{
+    margin: 40px auto 0;
+}
+
+/* offer */
+.offer{
+    padding: 80px 0;
+    background-color: #505050;
+    color: #fff;
+    text-align: center;
+}
+
+.offer .outline-title{
+    color: #fff;
+}
+
+.offer .btn{
+    margin-left: auto;
+    margin-right: auto;
+}
